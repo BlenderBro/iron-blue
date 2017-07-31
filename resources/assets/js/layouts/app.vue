@@ -1,3 +1,4 @@
+<!--Dashboard fucking layout-->
 <template>
   <div class="app-layout">
     <nav class="navbar navbar-toggleable-md navbar-light mb-4">
@@ -12,7 +13,7 @@
         </button>
 
         <router-link :to="{ name: 'welcome' }" class="navbar-brand">
-          Laravel
+          Bla
         </router-link>
 
         <div class="collapse navbar-collapse" id="navbar">

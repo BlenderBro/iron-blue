@@ -12,7 +12,7 @@
 
     <div class="text-center">
       <div class="title mb-4">
-        {{ title }}
+        title welc.vue
       </div>
 
       <div class="links">
@@ -34,14 +34,14 @@ export default {
 
   layout: 'default',
 
-  metaInfo: { titleTemplate: 'Welcome | %s' },
+  metaInfo: { titleTemplate: 'WorkingTitle' },
 
   computed: mapGetters({
     authenticated: 'authCheck'
   }),
 
   data: () => ({
-    title: 'Laravel'
+    title: 'NoTitle'
   })
 }
 </script>

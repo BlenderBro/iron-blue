@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Eusebiu\JavaScript\Facades\ScriptVariables;
+use Illuminate\Support\Facades\Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -20,6 +21,8 @@ class AppServiceProvider extends ServiceProvider
                 'data' => auth()->user(),
             ];
         });
+        
+        Schema::defaultStringLength(191);
     }
 
     /**
