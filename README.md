@@ -1,7 +1,3 @@
-# Laravel-Vue SPA Starter [WIP]
-
-> A Laravel-Vue SPA starter project template.
-
 ## Features
 
 - Laravel 5.4 + Vue + Vue Router + Vuex
@@ -30,10 +26,7 @@
 
 ```bash
 # build and watch
-npm run watch
-
-# serve with hot reloading
-npm run hot
+npm run watch-poll
 ```
 
 #### Production
